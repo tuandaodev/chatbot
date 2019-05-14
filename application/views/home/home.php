@@ -44,7 +44,7 @@
 						<span class="contact-status busy"></span>
 						<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
 						<div class="meta">
-							<p class="name">Harvey Specter</p>
+							<p class="name">Đào Minh Tuấn</p>
 							<p class="preview">Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
 						</div>
 					</div>

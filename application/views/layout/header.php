@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; Charset=UTF-8');
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
@@ -6,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <title>ChatBot</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset='UTF-8'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="robots" content="noindex">
 
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
