@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-|	https://codeigniter.com/user_guide/general/routing.html
+|	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -53,13 +53,13 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-//$route['admin'] = 'admin/dashboard';
-//$route['admin/prefs/interfaces/(:any)'] = 'admin/prefs/interfaces/$1';
-//
-//$route['api'] = 'api/index';
-//
-//$route['api/go_share/(:any)'] = 'api/Go_share/index/$1';
-//$route['api/shared/(:any)'] = 'api/Shared/index/$1';
-//
-//$route['api/gift/send_gift/(:num)'] = 'api/Gift/send_gift/$1';
-//$route['api/gift/choose/(:num)/(:num)'] = 'api/Gift/choose_gift/$1/$2';
+$route['admin'] = 'admin/dashboard';
+$route['admin/prefs/interfaces/(:any)'] = 'admin/prefs/interfaces/$1';
+
+$route['api'] = 'api/index';
+
+$route['api/go_share/(:any)'] = 'api/Go_share/index/$1';
+$route['api/shared/(:any)'] = 'api/Shared/index/$1';
+
+$route['api/gift/send_gift/(:num)'] = 'api/Gift/send_gift/$1';
+$route['api/gift/choose/(:num)/(:num)'] = 'api/Gift/choose_gift/$1/$2';
